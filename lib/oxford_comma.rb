@@ -2,15 +2,15 @@ def oxford_comma(array)
   case array
     when array.length == 1 
       one = array.join("")
-      one
+       puts one
     when array.length == 2 
       two = array.join(" and ")
-      two
+       puts two
     when array.length == 3
       three =  array.join(", and ")
-      three
+      puts three
     when array.length > 3
       more = array.join(", ")
-      more
+      puts more
   end
 end
