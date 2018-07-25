@@ -1,12 +1,16 @@
 def oxford_comma(array)
   case array
     when array.size == 1 
-      puts array.join
+      one = array.join
+      one
     when array.size == 2 
-      puts array.join(" and ")
+      two =  array.join(" and ")
+      two
     when array.size == 3
-      puts array.join(", and ")
+      three =  array.join(", and ")
+      three
     when array.size > 3
-      puts array.join(", ")
+      more = array.join(", ")
+      more
   end
 end
